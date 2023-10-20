@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    font-family: 'Cairo', sans-serif;
+}
+.container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    width: 768px;
+    max-width: 100%;
+    margin:  -30px auto 30px auto ;
+}
+.box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+}
+.box .left {
+    width: 100%;
+}
+.box .right {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    
+.container{
+margin: 2%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.box .left,
+.box .right {
+    width: 100%;  
+}
+.box img {
+ display: none;
+}
+}
+
+.box img{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 300px;
+    border-radius: 30px 0 0 30px;
+}
+.box form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    font-size: 18px;
+}
+.box form input{
+    margin-bottom: 20px;
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.box form textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+    padding: 10px 20px ;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+.box form .submit{
+    width: fit-content;
+    font-weight: bold;
+    margin: auto ;
+}
+.box form .submit:hover{
+    background-color: rgb(22, 207, 22);
+    color: white;
+    border: 1px solid white;
+}
+.container .box .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -50px;
+}

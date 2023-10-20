@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Payment Methods</title>
+</head>
+<body class="Payment">
+    <div class="payment">
+        <form class="form">
+                    <div class="pay">
+                        <input type="radio" name="type" id="type-one">
+                        <div class="type">
+                           <label  for="type-one">
+                            <i class="fa-brands fa-google-pay fa-fw fa-3x"></i>
+                           </label>
+                        </div>
+                       
+                        <input type="radio" name="type" id="type-tow" >
+                        <div class="type">
+                           <label for="type-tow">
+                        <i class="fa-brands fa-apple-pay fa-fw fa-3x"></i>    
+                           </label>
+                        </div>
+                    </div>
+            <div class="card-info">
+                <div class="input_container">
+					<label class="input_label">name</label>
+					<input class="input_field" type="text" placeholder="Enter your full name" required>
+				</div>
+                <div class="input_container">
+					<label class="input_label">phone number</label>
+					<input class="input_field" type="number" placeholder="Enter your phone number" required>
+				</div>
+                <div class="input_container">
+					<label class="input_label">  country / city   </label>
+					<div class="split">
+						<input class="input_field" style="width: 250px;" type="text" placeholder="country"required>
+						<input class="input_field" style="width: 110px;" type="text" placeholder="city" required>
+					</div>
+				</div>
+                <div class="input_container">
+					<label class="input_label">  street / apartment number    </label>
+					<div class="split">
+						<input class="input_field" style="width: 250px;" type="text" placeholder="street"required>
+						<input class="input_field" style="width: 110px;" type="number" placeholder="apartment number" required>
+					</div>
+				</div>
+				<div class="input_container">
+					<label class="input_label">card holder name</label>
+					<input class="input_field" type="text" placeholder="Enter your full name" required>
+				</div>
+				<div class="input_container">
+					<label class="input_label">card number </label>
+					<input class="input_field" type="number" placeholder="0000 0000 0000 0000" required>
+				</div> 
+				<div class="input_container">
+					<label class="input_label"> expiry date / CVV   </label>
+					<div class="split">
+						<input class="input_field" style="width: 250px;" type="text" placeholder="01/23"required>
+						<input class="input_field" style="width: 110px;" type="number" placeholder="CVV" required>
+					</div>
+				</div>
+			</div>
+            <button class="btn" >
+				<span>checkout</span>
+			</button>
+        </form>
+    </div>
+</body>
+</html>
