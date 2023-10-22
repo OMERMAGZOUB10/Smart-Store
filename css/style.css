@@ -112,6 +112,7 @@ color: var(--black);
 .header{
     display: flex;
     justify-content: space-between;
+    align-items:center;
     background-color: var(--main-color);
     min-height: 50px;
     padding:1.5rem 7%;
