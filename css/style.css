@@ -344,7 +344,7 @@ color: var(--black);
     align-items: center;
     text-align: center;
     width: 250px;
-    height: 270px;
+    height: 300px;
     border: 1px solid var(--main-color);
     border-radius: 15px;
     font-size: 1.3rem;
@@ -358,7 +358,7 @@ color: var(--black);
 .products .item img{
     margin: 10px 0 10px 0;
     width: 90%;
-    height: 135px;
+    height: 145px;
     border-radius: 15px;
 }
 .products .item .price {
@@ -516,7 +516,7 @@ color: var(--black);
     .products .item img{
         margin: 0 auto 10px ;
         width: 95%;
-        height: 80px;
+        height: 100px;
     }
 
     .products .item .btn{
